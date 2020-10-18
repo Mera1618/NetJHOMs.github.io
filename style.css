@@ -22,6 +22,7 @@
 header {
     width: 100%;
     height: 8rem;
+    background-image: url(./assets/encabezado.png);
     background-color: #141933;
     color: white;
     display: flex;
