@@ -106,3 +106,12 @@ article h3 {
     font-size: 1.4rem;
     margin-bottom: 0.5rem;
 }
+
+article ul li {
+    margin-left: 2rem;
+}
+
+article h1 {
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+}
