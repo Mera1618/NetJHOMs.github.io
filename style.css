@@ -92,8 +92,8 @@ html {
 
 article {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 50%;
-    max-width: 700px;
+    width: 60%;
+    max-width: 800px;
     margin: 0 auto;
     margin-top: 2rem;
     text-align: justify;
@@ -129,20 +129,40 @@ footer {
     );
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 1rem;
-}
-
-footer img {
-    width: 2.5rem;
+    display: inline-block;
+    width: 100%;
 }
 
 footer #social {
-    display: flexbox;
-    padding: 0.3rem 0;
+    display: flex;
 }
 
-footer a {
-    text-decoration: none;
+footer img {
+    width: 3vw;
+    padding: 1rem;
+}
+
+footer picture {
+    display: flex;
+}
+
+#fb_icon {
+    background-color: #3d5b94;
+}
+
+#tw_icon {
+    background-color: #3dacdd;
+}
+
+#email_icon {
+    background-color: #6dcd9a;
+}
+
+#ig_icon {
+    background-color: #dd2a7b;
+}
+
+#dir {
+    padding: 1.5rem;
+    width: 82vw;
 }
