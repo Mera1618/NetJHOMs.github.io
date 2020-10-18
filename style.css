@@ -97,6 +97,7 @@ article {
     margin: 0 auto;
     margin-top: 2rem;
     text-align: justify;
+    margin-bottom: 3rem;
 }
 
 article p {
@@ -115,4 +116,33 @@ article ul li {
 article h1 {
     font-size: 1.6rem;
     margin-bottom: 0.5rem;
+}
+
+footer {
+    background-color: #141933;
+    background: linear-gradient(
+        to right,
+        #0b0b0d 5%,
+        #151621 30%,
+        #121526 55%,
+        #141933 80%
+    );
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+footer img {
+    width: 2.5rem;
+}
+
+footer #social {
+    display: flexbox;
+    padding: 0.3rem 0;
+}
+
+footer a {
+    text-decoration: none;
 }
