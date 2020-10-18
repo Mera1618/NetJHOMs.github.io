@@ -19,13 +19,22 @@
     padding: 0;
 }
 
+/* Header */
+
 header {
     width: 100%;
     height: 8rem;
+    background-image: url(./assets/encabezado.png);
     background-color: #141933;
+    background-size: cover;
     color: white;
     display: flex;
     justify-content: space-evenly;
+}
+
+html {
+    background-image: url(./assets/pattern.webp);
+    background-color: #f7f7f7;
 }
 
 #imago {
@@ -58,6 +67,8 @@ header {
     visibility: hidden;
 }
 
+/* Main Nav Bar */
+
 #main_nav {
     width: 100%;
     height: 3rem;
@@ -81,4 +92,140 @@ header {
 
 #main_nav li:nth-child(1) {
     padding-left: 5rem;
+}
+
+/* Slider */
+
+.slider {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+
+    animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+    width: 100%;
+    list-style: none;
+}
+
+.slider img {
+    width: 100%;
+}
+
+@keyframes cambio {
+    0% {
+        margin-left: 0;
+    }
+    20% {
+        margin-left: 0;
+    }
+
+    25% {
+        margin-left: -100%;
+    }
+    45% {
+        margin-left: -100%;
+    }
+
+    50% {
+        margin-left: -200%;
+    }
+    70% {
+        margin-left: -200%;
+    }
+
+    75% {
+        margin-left: -300%;
+    }
+    100% {
+        margin-left: -300%;
+    }
+}
+
+/* Article */
+
+article {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 60%;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    text-align: justify;
+    margin-bottom: 3rem;
+}
+
+article p {
+    margin-bottom: 1rem;
+}
+
+article h3 {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+}
+
+article ul li {
+    margin-left: 2rem;
+}
+
+article h1 {
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Footer */
+
+footer {
+    background-color: #141933;
+    background: linear-gradient(
+        to right,
+        #0b0b0d 5%,
+        #151621 30%,
+        #121526 55%,
+        #141933 80%
+    );
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    width: 100%;
+}
+
+footer #social {
+    display: flex;
+}
+
+footer img {
+    width: 3vw;
+    padding: 1rem;
+}
+
+footer picture {
+    display: flex;
+}
+
+#fb_icon {
+    background-color: #3d5b94;
+}
+
+#tw_icon {
+    background-color: #3dacdd;
+}
+
+#email_icon {
+    background-color: #6dcd9a;
+}
+
+#ig_icon {
+    background-color: #dd2a7b;
+}
+
+#dir {
+    padding: 1.5rem;
+    width: 82vw;
 }
